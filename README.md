@@ -2,13 +2,16 @@
 
 DESCRIPTION
 -----------
-This is a Julia program (version 1.5.3) designed for the production of paper entitled "Evolutionary dynamics of behavioral motivations."
+These are Julia programs (version 1.5.3) and Matlab programs (version 2023b) designed for the production of a paper entitled "Evolutionary dynamics of behavioral motivations."
 
 FILE
 -----
 <pre>
-BehavioralMotivation.jl      obtain the critical benefit-to-cost ratio (b/c)^* for dynamic networks that are comprised of any number of networks and involve any transition between them
-                             provide detailed instruction of each function and illustrate the application with a simple example from Figure 2a in the main text
+Figure3.jl      obtain the frequency of cooperation for a range of need threshold \alpha for four types of games and six types of networks (see Figure 3 in the main text)
+                provide detailed instructions for each function
+Figure4.mlx     obtain the frequency of cooperation for a range of need threshold \alpha, number of levels L, and benefit factor w (see Figure 4 in the main text)
+Figure5.jl      obtain the fixation probability of motivation A for a range of benefits b, on random regular networks and scale-free networks (see Figure 5 in the main text)
+Figure6.jl      obtain the 
 </pre>
                         
 INSTALLATION
